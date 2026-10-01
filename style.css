@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+
+.game {
+    width: 300px;
+    margin: 30px auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.box {
+    height: 100px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#winnerMessage {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+}
